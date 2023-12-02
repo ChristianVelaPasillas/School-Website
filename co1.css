@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#paisaje {
+    background-image: url("506.jpeg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll; 
+    background-attachment: fixed;  
+}
+
+#tablero {
+    border: #9D6141 0px ridge;
+    background-color: #ffffff;
+}
+
+.fila td, th {
+    width: 80.5px;
+    height: 90.5px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding:  10px;
+}
+
+/* Estilos para el contenido de la página */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    font-size: 18px;
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+/* Estilos para las fotografías */
+.fotos img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* Estilos para los artículos y noticias */
+.articulos {
+    /* Estilos para los artículos y noticias, si lo deseas. */
+}
+
+/* Estilos para los consejos y recomendaciones */
+.consejos {
+    /* Estilos para los consejos y recomendaciones, si lo deseas. */
+}
+
+/* Estilos para los enlaces de contacto */
+.contacto {
+    /* Estilos para los enlaces de contacto, si lo deseas. */
+}
